@@ -19,6 +19,7 @@ def dice_game():
 
 	print('Quit: Y/N')
 
+
 	choice = input()
 
 	if choice == 'Y' or choice == 'y':
