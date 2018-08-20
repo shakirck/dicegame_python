@@ -26,7 +26,7 @@ def dice_game():
 	if choice == 'N' or choice =='n' :
 		pass
 	else :
-		print ('unknown input so Game will Quit')
+		print ('Unknown Input...Game will Quit')
 		exit()
 
 while True:
