@@ -13,9 +13,9 @@ def dice_game():
 	if player>cpu:
 		print('You win')
 	elif player == cpu: 
-		print('The game is a tie')
+		print('The game is a draw')
 	else :
-		print ('you lose')	
+		print ('failed')	
 
 	print('Quit: Y/N')
 
@@ -27,7 +27,7 @@ def dice_game():
 	if choice == 'N' or choice =='n' :
 		pass
 	else :
-		print ('Unknown Input...Game will Quit')
+		print ('invalid Input..Game will Quit')
 		exit()
 
 while True:
