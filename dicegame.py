@@ -27,10 +27,10 @@ def dice_game():
 	if choice == 'N' or choice =='n' :
 		pass
 	else :
-		print ('invalid Input..Game will Quit')
+		print ("invalid Input..Game will Quit and you failed")
 		exit()
 
 while True:
-	print("Press any key")
+	print("Press any key or any number")
 	enter=input()
 	dice_game()
